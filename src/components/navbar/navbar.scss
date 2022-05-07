@@ -1,0 +1,64 @@
+.Navbar {
+  background-color: rgb(60, 179, 113);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 20px;
+
+  .menu {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: default;
+    .network-status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: small;
+      color: rgb(238, 238, 238);
+      margin-right: 10px;
+      #green-circle {
+        background-color: rgb(15, 247, 53);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 5px;
+        -webkit-box-shadow: inset 0px 0px 3px -1px #000000;
+        box-shadow: inset 0px 0px 3px -1px #000000;
+      }
+      #orange-circle {
+        background-color: rgb(255, 217, 47);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 5px;
+        -webkit-box-shadow: inset 0px 0px 3px -1px #000000;
+        box-shadow: inset 0px 0px 3px -1px #000000;
+      }
+    }
+    #img1 {
+      margin: 2px;
+      cursor: pointer;
+      user-select: none;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .title {
+    font-size: larger;
+    color: white;
+    font-weight: 800;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

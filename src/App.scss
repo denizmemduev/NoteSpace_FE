@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Biryani:wght@300&display=swap");
+.App {
+  width: 100%;
+  background-color: #303030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+
+  .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1920px;
+    .rightside {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  h1 {
+    margin: 0px;
+    width: 550px;
+    z-index: 1;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(219, 219, 219);
+    z-index: 1;
+  }
+  #decription {
+    width: 450px;
+    text-align: center;
+    z-index: 1;
+    color: rgb(204, 204, 204);
+    margin-bottom: 20px;
+  }
+
+  svg {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    top: -11%;
+  }
+}
+
+#lbl {
+  position: absolute;
+  bottom: 10px;
+  font-size: small;
+  color: rgb(199, 199, 199);
+}
+.path-0 {
+  animation: pathAnim-0 45s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes pathAnim-0 {
+  0% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 232,177 464,154 704,154 C 944,154 1192,177 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+  25% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 279,216 558,232 798,232 C 1038,232 1239,216 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+  50% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 218.5,178.5 437,157 677,157 C 917,157 1178.5,178.5 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+  75% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 295.5,181 591,162 831,162 C 1071,162 1255.5,181 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+  100% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 232,177 464,154 704,154 C 944,154 1192,177 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+}
+.path-1 {
+  animation: pathAnim-1 45s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes pathAnim-1 {
+  0% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 176.5,434 353,468 593,468 C 833,468 1136.5,434 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+  25% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 203,379.5 406,359 646,359 C 886,359 1163,379.5 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+  50% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 216.5,420.5 433,441 673,441 C 913,441 1176.5,420.5 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+  75% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 188,372.5 376,345 616,345 C 856,345 1148,372.5 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+  100% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 176.5,434 353,468 593,468 C 833,468 1136.5,434 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+}
