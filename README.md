@@ -4,7 +4,7 @@
 
 
 
-<img src="https://res.cloudinary.com/bestcar-bg/image/upload/v1643579675/Deniz%20Memduev/mac-laptop-png-13_plvpon.png" width="1000"  />
+<img src="https://res.cloudinary.com/denizmemduev/image/upload/v1643579675/Deniz%20Memduev/mac-laptop-png-13_plvpon.png" width="1000"  />
 
 
 
